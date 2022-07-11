@@ -57,3 +57,8 @@ body{
     border-radius: 3%;
     border-bottom: 3px solid rgb(168, 160, 160);
 }
+.criscia-talk{
+    border: 1px solid rgb(253, 214, 107);
+    text-align: center;
+    line-height: 100px;
+}
