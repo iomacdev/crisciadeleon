@@ -14,16 +14,10 @@ div{
     text-align: center;
 }
 
-#sun-logo{
-    height: 200px;
-    width: 200px;
-}
-
 @media screen and (min-width:1024px){
     #main-wrapper{
-        width: 1024px;
-
-        margin: 20px auto 20px auto;
+        width: 90%;
+        
         background-color: #fff;
        
     } 
@@ -62,9 +56,4 @@ div{
     height: 100px;
     border-radius: 100%;
 }
-/* Color of the links BEFORE scroll */
-.navbar-scroll .nav-link,
-.navbar-scroll .navbar-toggler-icon,
-.navbar-scroll .navbar-brand {
-  color: #fff;
-}
+
