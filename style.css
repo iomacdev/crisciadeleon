@@ -1,0 +1,70 @@
+body{
+    margin: 0px;
+    height: 0px;
+    
+   background-color: rgb(250, 234, 6);
+}
+.clear{
+    clear:both;
+}
+div{
+    margin-top: 20px;
+}
+.center-text{
+    text-align: center;
+}
+
+#sun-logo{
+    height: 200px;
+    width: 200px;
+}
+
+@media screen and (min-width:1024px){
+    #main-wrapper{
+        width: 1024px;
+
+        margin: 20px auto 20px auto;
+        background-color: #fff;
+       
+    } 
+    
+} 
+#statement, #lead, .yellow-bg{
+    background-size: cover !important;
+
+    background: url('circleoutline_side.png') top center no-repeat,linear-gradient(#eaab00,#ffdd36) !important;
+}
+#statement img, #testimonials img{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+}
+#bright-ideas img{
+    border: 5px solid #ffdd36;
+    margin-top: 20px !important;
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+}
+#bright-ideas h3{
+    margin-top: 20px !important;
+}
+#statement h3{
+    text-align: center;
+}
+.core-benefit img{
+    width: 350px;
+    height: 350px;
+    border-radius: 100%;
+}
+#criscia-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+/* Color of the links BEFORE scroll */
+.navbar-scroll .nav-link,
+.navbar-scroll .navbar-toggler-icon,
+.navbar-scroll .navbar-brand {
+  color: #fff;
+}
