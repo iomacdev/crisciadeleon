@@ -28,6 +28,7 @@ body{
     width: 175px;
     height: 175px;
     border-radius: 100%;
+    border: 7px solid #ffffff !important;
 }
 #bright-ideas img{
     border: 5px solid #ffdd36;
